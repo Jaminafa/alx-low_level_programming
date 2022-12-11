@@ -1,31 +1,20 @@
-#include <stdlib.h>
-#include <time.h>
+#include <unistd.h>
 #include <stdio.h>
 
 /**
-  * main - This program identifies if a randomly generated number
-  * is positive, negative or zero
+  * main - Entry Point
+  * Description: Prints the alphabet in lowercase
   * Return: This returns 0
   */
 int main(void)
 {
-	int n;
+	int x;
 
-	srand(time(0));
-	n = rand() - RAND_MAX / 2;
-
-	if (n == 0)
+	for (x = 'a'; x <= 'z'; x++)
 	{
-		printf("%d is zero\n", n);
+		putchar(x);
 	}
-	else if (n > 0)
-	{
-		printf("%d is positive\n", n);
-	}
-	else
-	{
-		printf("%d is negative\n", n);
-	}
+	putchar('\n');
 
 	return (0);
 }
