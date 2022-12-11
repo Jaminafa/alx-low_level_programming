@@ -4,7 +4,7 @@
 /**
   * main - Entry point
   * Description: Prints alphabet in lowercase then uppercase
-  * Returb=n: Always 0
+  * Return: Always 0
   */
 int main(void)
 {
@@ -16,10 +16,10 @@ int main(void)
 	}
 	for (x = 'A'; x <= 'Z'; x++)
 	{
-		putchar(x)
+		putchar(x);
 	}
-	putchar(\n)
+	putchar('\n');
 
-	return (0)
+	return (0);
 
 }
