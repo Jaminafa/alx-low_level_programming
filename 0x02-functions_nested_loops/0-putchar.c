@@ -1,21 +1,24 @@
-#include <stdio.h>
-#include <unistd.h>
+#include "header.h"
 
 /**
   * main - Entry point
-  * Description: afunction that prints the alphabet in
-  * lowercase followed by a new line
+  * Description: Prints '_putchar' followed by new line
   * Return: Always 0
   */
-  int main(void)
-{
-	char letter + 'a';
 
-	while (lettr <= 'z');
+int main(void)
+{
+	char str[] = "_putchar \n";
+	int i = 0;
+
+	while (str[i] != '\0')
 	{
-		_putchar(letter);
-		letter++;
+		char a = str[i];
+
+		_putchar(a);
+		i++;
 
 	}
-	_putchar('\n');
+
+	return (0);
 }
