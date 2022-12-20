@@ -1,9 +1,11 @@
 #include "main.h"
 
 /**
-  * reset_to_98: resets the value of a variable to 98
-  * Return: void
-  */
+ * reset_to_98 - Resets variable to 98
+ * @n:  pointer for storing address of variable
+ *
+ * Return: void
+ */
 
 void reset_to_98(int *n)
 {
