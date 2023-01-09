@@ -22,7 +22,7 @@ int main(int argc, char *argv[])
 		ptr = argv[i];
 		len = strlen(ptr);
 
-		for (j = 0; j< len; j++)
+		for (j = 0; j < len; j++)
 		{
 			if (isdigit(ptr[j]) == 0)
 			{
