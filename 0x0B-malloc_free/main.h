@@ -1,2 +1,3 @@
-char *create_array(unsigned in size, char c);
+char *create_array(unsigned int size, char c);
 int _putchar(char c);
+char *_strdup(char *str);
