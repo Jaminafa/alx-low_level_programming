@@ -1,5 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <ctype.h>
+#include <string.h>
 #include "main.h"
 
 /**
@@ -11,15 +13,22 @@
 
 int main(int argc, char *argv[])
 {
-	int i;
+	int i, j, len;
 	int sum = 0;
+	char *ptr;
 
 	for (i = 1; i < argc; i++)
 	{
-		if (atoi(argv[i]) <= 0)
+		ptr = argv[i];
+		len = strlen(ptr);
+
+		for (j = 0; j< len; j++)
 		{
-			printf("Error\n");
-			return (1);
+			if (isdigit(ptr[j]) == 0)
+			{
+				printf("Error\n");
+				return (1);
+			}
 		}
 	}
 
