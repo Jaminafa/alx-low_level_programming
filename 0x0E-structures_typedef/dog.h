@@ -19,4 +19,6 @@ struct dog
 	char *owner;
 };
 
+void inint_dog(struct dog *d, char *name, float age, char *owner);
+
 #endif
