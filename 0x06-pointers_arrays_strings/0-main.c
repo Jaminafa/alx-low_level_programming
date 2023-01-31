@@ -8,7 +8,7 @@
  */
 int main(void)
 {
-    char s1[98] = "Holberton ";
+    char s1[19] = "Holberton ";
     char s2[] = "School!\n";
     char *ptr;
 
