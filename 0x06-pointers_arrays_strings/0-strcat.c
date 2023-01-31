@@ -1,10 +1,11 @@
-#inlcude "main.h"
+#include <stdio.h>
+#include "main.h"
 
 /**
   * _strcat - concatenates two strings
-  * @dest - destination string
-  * @src - source string
-  * Return - concatenated string
+  * @*dest: destination string
+  * @*src: source string
+  * Return: concatenated string
   */
 
 char *_strcat(char *dest, char *src)
@@ -22,7 +23,7 @@ char *_strcat(char *dest, char *src)
 	{
 		;
 	}
-	for (x = 0; src[x] !='\0'; || x < i; x++, j++)
+	for (x = 0; src[x] != '\0'; || x < i; x++, j++)
 	{
 		dest[j] = src[x];
 	}
