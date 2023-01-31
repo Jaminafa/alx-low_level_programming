@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include "main.h"
 
 /**
@@ -13,7 +12,6 @@ char *_strcat(char *dest, char *src)
 	int i;
 	int j;
 	int x;
-	int y;
 
 	for (i = 0; src[i] != '\0'; i++)
 	{
